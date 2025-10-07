@@ -49,10 +49,16 @@
     Show the scheduler's status and total crons
 ```
 
+### Arguments
+
 - `id` : unique identifier for the task
 - `pattern` : cron expression (Quartz 6-field format)
 - `command` : Minecraft command to execute
 - `enabled` : whether the task is active
+
+### Aliases
+
+Quartz4MC commands can also be used with `/quartz` and `/cron` aliases.
 
 ## Configuration
 
