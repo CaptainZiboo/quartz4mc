@@ -84,7 +84,7 @@ public class QuartzConfig {
         CronEntry example = new CronEntry();
         example.id = "example_broadcast";
         example.schedule = "0 * * * * ?"; // Quartz 6-fields format
-        example.command = "tellraw @a [{\"text\":\"[QuartzConfig] \",\"color\":\"pink\"}, {\"text\":\"Edit \", \"color\": \"gray\"}, {\"text\":\"config/quartz4mc.json\",\"color\":\"white\"}, {\"text\":\" to disable this default cron.\",\"color\":\"gray\"}]";
+        example.command = "tellraw @a [{\"text\":\"[QuartzConfig] \",\"color\":\"light_purple\"}, {\"text\":\"Edit \", \"color\": \"gray\"}, {\"text\":\"config/quartz4mc.json\",\"color\":\"white\"}, {\"text\":\" to disable this default cron.\",\"color\":\"gray\"}]";
         config.crons.add(example);
         return config;
     }

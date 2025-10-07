@@ -69,7 +69,7 @@ Quartz4MC commands can also be used with `/quartz` and `/cron` aliases.
 {
   "id": "example_broadcast",
   "schedule": "0 * * * * ?",
-  "command": "tellraw @a [{\"text\":\"[QuartzConfig] \",\"color\":\"pink\"}, {\"text\":\"Edit \", \"color\": \"gray\"}, {\"text\":\"config/quartz4mc.json\",\"color\":\"white\"}, {\"text\":\" to disable this default cron.\",\"color\":\"gray\"}]",
+  "command": "tellraw @a [{\"text\":\"[QuartzConfig] \",\"color\":\"light_purple\"}, {\"text\":\"Edit \", \"color\": \"gray\"}, {\"text\":\"config/quartz4mc.json\",\"color\":\"white\"}, {\"text\":\" to disable this default cron.\",\"color\":\"gray\"}]",
   "enabled": true
 }
 ```
