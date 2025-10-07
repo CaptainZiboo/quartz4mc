@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "quartz4mc",
+	"version": "${version}",
+	"name": "Quartz4MC",
+	"description": "Un mod Minecraft robuste pour gérer des tâches cron programmées sur le serveur. Permet d'automatiser l'exécution de commandes selon des horaires configurables.",
+	"authors": [
+		"CaptainZiboo"
+	],
+	"contact": {
+		"homepage": "https://github.com/CaptainZiboo/quartz4mc",
+		"sources": "https://github.com/CaptainZiboo/quartz4mc",
+		"issues": "https://github.com/CaptainZiboo/quartz4mc/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/quartz4mc/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.captainziboo.quartz4mc.Quartz4MC"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"fabric-command-api-v2": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"badges": [
+				"server"
+			],
+			"links": {
+				"modmenu.discord": "https://discord.gg/yourserver"
+			}
+		}
+	}
+}
