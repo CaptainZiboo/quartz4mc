@@ -80,6 +80,20 @@ Quartz4MC commands can also be used with `/quartz` and `/cron` aliases.
 - Failed tasks are logged in the server console.
 - After **5 consecutive failures**, a task is automatically disabled to prevent infinite error loops.
 
+## Compatibility
+
+Quartz4MC has been tested and confirmed to work on the following Minecraft and Fabric versions:
+
+| Minecraft | Fabric Loader | Fabric API     |
+| --------- | ------------- | -------------- |
+| 1.21.1    | 0.17.2        | 0.116.6+1.21.1 |
+
+> We maintain a list of supported versions in the README. New versions will be added as testing is completed.
+
+### Request Support
+
+Quartz4MC is primarily developed and tested for Fabric. If you'd like to see support for additional Minecraft versions or other mod loaders such as Forge or NeoForge, feel free to open a discussion on the [GitHub Discussions page](https://github.com/CaptainZiboo/quartz4mc/discussions). Your requests will help prioritize compatibility testing and new feature development.
+
 ## Development and Contributions
 
 - Built with **Fabric API** for Minecraft
